@@ -1,18 +1,21 @@
-# README: Pulling Data from PostgreSQL and Inserting into Elasticsearch using Apache Airflow
+# Data Engineering with PostgreSQL & Elasticsearch
 
-This notebook demonstrates how to use Apache Airflow to extract data from a PostgreSQL database and insert it into Elasticsearch. We will go through the following steps:
+![Elasticsearch Logo](https://www.elastic.co/guide/en/elasticsearch/reference/current/images/elastic-logo.svg)
 
-1. Install the necessary libraries.
-2. Set up PostgreSQL connection and fetch data.
-3. Insert the data into Elasticsearch.
-4. Create and run an Airflow DAG to automate the process.
+This project demonstrates how to extract data from **PostgreSQL**, process it, and insert it into **Elasticsearch** using **Apache Airflow**.
 
----
+## Prerequisites
 
-## Step 1: Install the Required Libraries
+Before you start, ensure you have the following tools installed:
 
-In this section, we will install the necessary libraries required for PostgreSQL, Elasticsearch, and Airflow.
+- **PostgreSQL**
+- **Elasticsearch**
+- **Apache Airflow**
 
-```python
-# Install the necessary libraries
-!pip install apache-airflow psycopg2 elasticsearch pandas flask
+## Steps to Run
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-repo/data-engineering.git
+cd data-engineering
